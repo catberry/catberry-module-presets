@@ -21,7 +21,7 @@ class __pascalName__ {
 	 * @returns {Promise<Object>|Object|null|undefined} The data context for the template engine.
 	 */
 	render() {
-
+        return this.$context.getStoreData();
 	}
 
 	/**
